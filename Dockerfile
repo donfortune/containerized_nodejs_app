@@ -1,6 +1,6 @@
 FROM node:13-alpine
 
-RUN mkdir -p /usr/app
+RUN mkdir -p /usr/app #create a new directory 
 
 COPY package*.json /usr/app/
 COPY app/* /usr/app/
