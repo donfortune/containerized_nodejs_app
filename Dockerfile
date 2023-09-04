@@ -1,4 +1,4 @@
-FROM node:13.5-alpine
+FROM node
 
 RUN mkdir -p /usr/app #create a new directory 
 
