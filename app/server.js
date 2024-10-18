@@ -16,5 +16,5 @@ logger.info('Update your Elasticsearch indices');
 logger.info('you should see all these in Kibana');
 
 app.listen(3000, function () {
-    logger.info("app listening on port 3000!");
+    logger.info("app listening on port: 3000!");
 });
