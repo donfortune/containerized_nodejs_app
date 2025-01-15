@@ -7,7 +7,7 @@ COPY app/* /usr/app/
 
 WORKDIR /usr/app
 
-EXPOSE 8080
+EXPOSE 8080 // open port 
 
-RUN npm install
+RUN npm install 
 CMD ["node", "server.js"]
